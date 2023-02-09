@@ -1,0 +1,1 @@
+This program outputs a sine wave over USB by writing data values to the memory address of the queue.
