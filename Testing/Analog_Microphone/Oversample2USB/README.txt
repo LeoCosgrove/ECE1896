@@ -1,0 +1,1 @@
+This program uses a microphone on the A2 analog input. It oversamples this pin and averages the reading to help reduce noise.
