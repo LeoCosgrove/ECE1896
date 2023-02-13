@@ -1,24 +1,3 @@
-/*
- * A simple queue test which generates a sine wave in the 
- * application and sends it to headphone jack. The results
- * should always be a glitch-free wave, but various options
- * can be changed to modify the usage of audio blocks, and an
- * ability to execute the loop() function more slowly, with
- * simple waveform generation, or more efficiently / faster,
- * but requring some programmer effort to re-try if sending
- * waveform data fails due to a lack of buffer or queue space.
- *
- * This example code is in the public domain.
- * 
- * Jonathan Oakley, November 2021
- */
- 
-#include <Audio.h>
-#include <Wire.h>
-#include <SPI.h>
-#include <SD.h>
-#include <SerialFlash.h>
-
 #include <Audio.h>
 #include <Wire.h>
 #include <SPI.h>

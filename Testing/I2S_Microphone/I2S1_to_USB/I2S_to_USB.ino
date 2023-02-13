@@ -4,18 +4,6 @@
 #include <SD.h>
 #include <SerialFlash.h>
 
-#include <Audio.h>
-#include <Wire.h>
-#include <SPI.h>
-#include <SD.h>
-#include <SerialFlash.h>
-
-#include <Audio.h>
-#include <Wire.h>
-#include <SPI.h>
-#include <SD.h>
-#include <SerialFlash.h>
-
 // GUItool: begin automatically generated code
 AudioInputI2S            i2s1;           //xy=121,240
 AudioFilterBiquad        biquad1;        //xy=297,241
