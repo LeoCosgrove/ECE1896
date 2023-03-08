@@ -1,3 +1,6 @@
+Dependencies: 
+Arduino audio tools library
+
 This takes whatever i2s input the ESP32 recieves and outputs it to a bluetooth device "WorkTunes". Assumes i2s1 pin output from teensy (not i2s2).
 
 Pins:
