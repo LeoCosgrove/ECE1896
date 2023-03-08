@@ -10,8 +10,7 @@ AudioFilterBiquad        biquad1;        //xy=446,296
 AudioAmplifier           amp1;           //xy=671,305
 AudioOutputUSB           usb1;           //xy=924,316
 AudioInputI2S            i2s1;
-AudioConnection          patchCord1(adc1, biquad1);
-AudioConnection          patchCord2(biquad1, amp1);
+AudioConnection          patchCord1(adc1, amp1);
 AudioConnection          patchCord3(amp1, 0, usb1, 0);
 AudioConnection          patchCord4(amp1, 0, usb1, 1);
 // GUItool: end automatically generated code
@@ -19,9 +18,7 @@ AudioConnection          patchCord4(amp1, 0, usb1, 1);
 
 void setup() {
   AudioMemory(10);
-  biquad1.setLowpass(0,20000);
-  biquad1.setHighpass(1,20);
-  amp1.gain(20);
+  amp1.gain(1);
 }
 
 void loop() {

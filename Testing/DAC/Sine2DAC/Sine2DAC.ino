@@ -19,7 +19,7 @@ void setup() {
   sine1.amplitude(1);
   sine1.frequency(200);
   sine1.phase(0);
-  amp1.gain(10);
+  amp1.gain(1);
 }
 
 void loop() {
